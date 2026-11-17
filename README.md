@@ -25,3 +25,5 @@ V prohlížeči otevřete [http://127.0.0.1:4173](http://127.0.0.1:4173). Přihl
 ## Zálohy
 
 Data se při přihlášení ukládají do Supabase a také do místní IndexedDB jako cache. JSON záloha v sekci **Záloha a nastavení** stále obsahuje celý obsah včetně fotek. Fotky se před uložením zmenšují.
+
+Nasazení přes Vercel.
