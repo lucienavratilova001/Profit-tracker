@@ -95,3 +95,4 @@ function csvCell(x){return '"'+String(x??'').replace(/"/g,'""')+'"'}function csv
 let toastTimer;function toast(msg){const e=document.getElementById('toastroot');e.innerHTML=`<div class="toast">${esc(msg)}</div>`;clearTimeout(toastTimer);toastTimer=setTimeout(()=>e.innerHTML='',3000)}
 startApp();
 </script></body></html>
+
